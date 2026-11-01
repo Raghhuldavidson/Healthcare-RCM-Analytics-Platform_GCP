@@ -1,4 +1,4 @@
-# 🏥 Healthcare RCM Analytics Platform on Google Cloud Platform
+# 🏥 Healthcare RCM Analytics Platform on GCP
 
 A GCP-based Healthcare **Revenue Cycle Management (RCM)** data platform that ingests data from **two independent hospital source systems**, unifies them into a conformed **Silver layer (SCD Type 2 + data quality quarantine)**, and produces **Gold analytical KPIs** for provider, department, patient history, payor performance, and financial metrics — orchestrated end-to-end by **Cloud Composer (Airflow)**.
 
