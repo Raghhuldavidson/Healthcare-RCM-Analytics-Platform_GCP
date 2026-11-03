@@ -8,7 +8,8 @@ A GCP-based Healthcare **Revenue Cycle Management (RCM)** data platform that ing
 
 ## 🏗 Architecture Overview
 
-**Orchestration:** `parent_dag` (daily `0 5 * * *`) → triggers `pyspark_dag` (ingestion) with `wait_for_completion=True` → then triggers `bigquery_dag` (bronze/silver/gold SQL).
+
+<img width="1774" height="780" alt="Screenshot 2026-11-03 123648" src="https://github.com/user-attachments/assets/a0f02139-382f-4ac4-9632-16a8eb8fe505" />
 
 ---
 
